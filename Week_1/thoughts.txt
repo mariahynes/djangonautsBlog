@@ -1,0 +1,15 @@
+16th Oct 2024
+
+Today I looked at Trac and tried to find a ticket. It really brought it home to me how intriciate the whole system is and how many people know parts of it very deeply. The descriptions of the issues that have made it to a status where it is considered worth investigating are mentioning aspects that will be difficult to replicate. Will I find something to work on that will start me off into the process of investigating?
+
+Some tickets I lingered on longer than others...
+
+#35791 - relates to css something I am familiar with with a recent css upgrade in work - has an owner, is assigned
+#34976 - must ask Sarah about the comments on this one, she has written comments re accessibility - relates to the startapp commands - has an owner, is assigned
+#18543 - https://code.djangoproject.com/ticket/18543 - what does 'new Bug' mean? 'Non image file can be saved to ImageField' - open 12 years ago, last modified 18 months ago - no owner - sent question to Paolo Melchiorre on team-saturn channel
+
+In relation to that question 'new bug'. Paola said that 'new' is the status and it is not time-based, but more an indication that no one is working on it.
+He suggested keeping track of the questions for create FAQs for new Contributors. Created QuestionsAsked.txt file and added this first question for future reference.
+
+
+
