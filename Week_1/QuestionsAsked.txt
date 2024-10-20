@@ -6,3 +6,6 @@ Other examples of different tickets can be:
 #35786 assigned Bug
 
 Note: you can link in all the elements of the header and see other tickets with the same status or type. 
+
+Q. Should we install anything locally to check formatting before committing to Django repo?
+A. I believe the Django project now uses pre-commit which will force styles when you attempt to commit a change: https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/#pre-commit-checks

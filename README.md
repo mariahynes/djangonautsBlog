@@ -11,3 +11,8 @@ https://indieweb.social/@djangonaut/113227777330579423
 
 ### First meet - evidence!
 https://djangonaut.space/comms/2024/10/13/djangonauts-take-flight-welcome-to-session-3/
+
+### First Team Saturn meet!
+https://discordapp.com/channels/1114005656937177168/1290084064573001778/1296215141263872030
+
+

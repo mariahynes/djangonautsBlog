@@ -11,5 +11,33 @@ Some tickets I lingered on longer than others...
 In relation to that question 'new bug'. Paola said that 'new' is the status and it is not time-based, but more an indication that no one is working on it.
 He suggested keeping track of the questions for create FAQs for new Contributors. Created QuestionsAsked.txt file and added this first question for future reference.
 
+Nice also to see our Team photo taken at our first Team Saturn meeting by Paolo. We all look nicely enthusiastic!
+https://discordapp.com/channels/1114005656937177168/1290084064573001778/1296215141263872030
+
+
+17th Oct 2024
+
+Saw a member of the team had a question on Discord (https://discordapp.com/channels/1114005656937177168/1290084064573001778/1296474011286638693) about a failed test in his PR (we use GitLab in work so I'm more used to calling it an MR there!) and had a quick look while I was working. It was to do with formatting and I waded in with my tuppence worth. Nice to get involved in a conversation and learned that Django has a pre-commit check on the formatting https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/#pre-commit-checks
+
+20th Oct 2024
+
+Went on the train to Cork on 18th Oct as a present for my birthday. Excellent time to continue browsing for tickets!
+These few are ones where I thought I would be able to recreate the issue and will look again in more detail:
+
+https://code.djangoproject.com/ticket/9373
+https://code.djangoproject.com/ticket/12044
+https://code.djangoproject.com/ticket/12246
+https://code.djangoproject.com/ticket/12627
+https://code.djangoproject.com/ticket/13224
+
+Some of these are old, but have no patch. They do talk about things that I have used when making my projects, but mainly, I think I can recreate.
+
+A cool article I found, written by a previous djangonaut, was just what I needed to read to calm down the rising worry in my stomach that I had when thinking about setting things up.
+https://discordapp.com/channels/1114005656937177168/1260986020275556414/1284098589399846946
+
+
+
+
+
 
 
