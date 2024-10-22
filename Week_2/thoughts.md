@@ -1,5 +1,8 @@
-22nd Oct 2024  (post-call)
 
+
+<details>
+<summary>22nd Oct 2024  (post-call)</summary>
+<br>
 We had our 2nd call today and it was really useful. I have a couple of tasks for next week. I shared my screen to show the ticket I had picked and talked about why I picked it (looked like it had all the information needed to recreate the issue). Paolo said that putting my findings/questions in the ticket might trigger someone to advise me and we might find out if the issue is still happening and that it is useful to have an updated comment.
 
 Task 1: Formally assign this ticket on Trac, to myself and make a comment about what I am trying to do (e.g. recreate the issue and getting additional compile errors/warnings due to newer version of Django)
@@ -11,7 +14,7 @@ Task 2: Need to edit the documentation page and raise an MR, this week.
 Oh and I also mentioned that the test suite didn't fully run with out warning for me. Paola mentioned that sometimes the local environment is missing a dependency. I was ignoring the error (because it happened even when I made no code changes), but I will go back now and see if I can run the tests error/warning free.
 
 <details>
-<summary>FYI the error was this:</summary>
+<summary>FYI the runtests error was this:</summary>
 <br>
 Check out all the lovely passes and then the  'Warning' right in the middle:
 
@@ -53,4 +56,3 @@ Ran 17601 tests in 105.655s
 
 OK (skipped=1465, expected failures=5)
 </details>
-
