@@ -36,7 +36,7 @@ A cool article I found, written by a previous djangonaut, was just what I needed
 https://discordapp.com/channels/1114005656937177168/1260986020275556414/1284098589399846946
 
 
-22nd Oct
+22nd Oct 2024  (pre-call)
 
 Spent a few hours on Sunday trying to recreate the issue on ticket 9373 (https://code.djangoproject.com/ticket/9373) and it was interesting because there were two code examples in the comments and both produced warning complile errors/issues when I was making migrations due to using the most recent version of Django and not the version used in the comments. I need to investigate further to see if the ticket issue is still an issue or if the recent updates makes the issue redundant. 
 
