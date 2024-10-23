@@ -1,5 +1,5 @@
 
-# My Week 1 journal
+# My Week 1 Journal
 
 <details>
 <summary>16th Oct 2024</summary>
