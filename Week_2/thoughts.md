@@ -14,6 +14,7 @@ Task 2: Need to edit the documentation page and raise an MR, this week.
 Oh and I also mentioned that the test suite didn't fully run with out warning for me. Paola mentioned that sometimes the local environment is missing a dependency. I was ignoring the error (because it happened even when I made no code changes), but I will go back now and see if I can run the tests error/warning free.
 
 <details>
+
 <summary>FYI the runtests error was this:</summary>
 <br>
 Check out all the lovely passes and then the  'Warning' right in the middle:
@@ -56,3 +57,70 @@ Ran 17601 tests in 105.655s
 
 OK (skipped=1465, expected failures=5)
 </details>
+</details>
+<details>
+<summary>23 Oct 2024</summary>
+<br>
+Paolo sent me a PR where someone had already fixed the documentation issue for the Windows commands. He suggested I review the PR. That is where all the fun started. Not. I had some mind-bending moments when I thought through how to open the PR which virtual env etc etc. 
+
+So here are my thoughts...
+1) We pull down dev version of Django and then installing THAT DEV VERSION into a virtual environment
+2) We run the test suite in THAT VIRTUAL ENV (as per https://docs.djangoproject.com/en/dev/intro/contributing/)
+3) We run the make docs in THAT VIRUAL ENV (as per https://docs.djangoproject.com/en/5.1/internals/contributing/writing-documentation/)
+4) We view the docs FROM THE DEV VERSION in the file (/django/docs/_build/html/index.html - where django is the folder containing the DEV VERSION) that is created after step 3 above
+
+Need to have guidence/best practice on the following:
+1) If there is a PR containing a change to Django, for example the docs, do we need to install a separate DEV VERSION and create a virtual env for that?
+2) If we are working on a ticket, do we install a completely new DEV VERSION in a different folder's virtual env or do we keep using the forked version?
+
+The PR for the documentation change can be seen without creating a django project, but as this PR relates to a change to a document that is only available in the DJANGO folder, there is no need to create a djano project to see the change. How then is this done? MARIA THINKING: it's a branch based on the DEV VERSION you already have, so open it in a virtual env that DOES USE the DEV VERSION...ok good to talk this through.
+
+Something to talk about on my 1:1 which has just been set up.
+
+I noticed in the local build docs that I didn't get the issue in the PR (as in, I COULD see the 'py' in the command) - yet I didn't think I had done anything with the PR except pull it down. So in order to check this properly and to comment on the PR I did the following:
+1) I removed all build docs files from my forked copy. 
+2) I deleted the virtual env.
+3) I made sure I pulled the latest django:main
+4) I created a new virtual env
+5) I ran the commands:
+- \DjangonautSpace\Projects>py -m venv devvenv
+- \DjangonautSpace\Projects> devvenv\Scripts\activate.bat
+- \DjangonautSpace\Projects>cd django
+- \DjangonautSpace\Projects\django>py -m pip install -r docs\requirements.txt
+- \DjangonautSpace\Projects\django>cd docs
+- \DjangonautSpace\Projects\django\docs>make.bat html
+
+Got the following:
+`The HTML pages are in _build\html.
+Build finished. The HTML pages are in _build/html.`
+
+I opened a page in the live docs 5.1 and the same page in dev - both had NO `py`
+I opened the same page in the new docs I just build and it DID have the `py`
+
+I am not on the PR branch yet, but I don't have the issue.
+
+I provided screenshots in the PR to show my findings and asked if the issue was already solved without the PR.
+
+I just hope I did this correctly. Yiekks.
+https://github.com/django/django/pull/18606#issuecomment-2432823856
+
+BTW: also noticed there is a section on this page that doesn't have Windows commands:
+Need Windows https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#top
+
+Also on this page it doesn't need to mention
+"Now we are ready to run the test suite. If you’re using GNU/Linux, macOS, or some other flavor of Unix, run:"
+https://docs.djangoproject.com/en/dev/intro/contributing/
+
+
+
+</details>
+
+
+
+<details>
+<summary>How do I dropdown?</summary>
+<br>
+This is how you dropdown.
+</details>
+
+
