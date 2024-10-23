@@ -108,7 +108,7 @@ BTW: also noticed there is a section on this page that doesn't have Windows comm
 Need Windows https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#top
 
 Also on this page it doesn't need to mention
-"Now we are ready to run the test suite. If you’re using GNU/Linux, macOS, or some other flavor of Unix, run:"
+"Now we are ready to run the test suite. If you’re using GNU/Linux, macOS, or some other flavor of Unix, run:" because it uses the MAC/WINDOWS buttons:
 https://docs.djangoproject.com/en/dev/intro/contributing/
 
 
@@ -118,9 +118,9 @@ https://docs.djangoproject.com/en/dev/intro/contributing/
 
 
 <details>
-<summary>How do I dropdown?</summary>
+<summary>DATE GOES HERE!</summary>
 <br>
-This is how you dropdown.
+ADD SOME INFO...
 </details>
 
 
