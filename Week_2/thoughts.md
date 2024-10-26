@@ -122,7 +122,7 @@ I got comments back from PR owner that they had re-made the docs from the main b
 
 I created the docs again from most recent main dev branch and...I could see the issue - not sure why I didn't see them two days ago. Perhaps I had been in the wrong branch after all. 
 
-After creating the docs again I then renamed the docs folder, pulled down the PR18606 branch again and while in that branch created the docs. I could then compare the file from each folder. Indeed DEV branch had the issue and the PR branch did not. I put another comment on the MR confirming the issue was fixed in the PR and provided a little demo video showing the differences. I hope this will be useful to the person who ultimatly merges the PR. It's different to work, in that the Reviewer clicks an 'Approve' button.
+After creating the docs again I then renamed the docs folder, pulled down the PR18606 branch again and while in that branch created the docs. I could then compare the file from each folder. Indeed DEV branch had the issue and the PR branch did not. I put another comment on the MR confirming the issue was fixed in the PR and provided a little demo video showing the differences. https://github.com/django/django/pull/18606#issuecomment-2439447921 I hope this will be useful to the person who ultimatly merges the PR. It's different to work, in that the Reviewer clicks an 'Approve' button.
 
 I've read some more Django documention that will be useful. 
 - contributing/committing-code.html#handling-pull-requests

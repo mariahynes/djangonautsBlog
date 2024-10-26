@@ -1,6 +1,6 @@
-# djangonautsBlog
+# My djangonauts Journal
 
-This Repo is for me to enter my thoughts on work carried out during my time as a Djangonaut.
+This Repo is for me to enter my thoughts on work carried out during my time as a Djangonaut on Session 3.
 Thanks to James Bligh for introducing me to the application process.
 
 
@@ -10,6 +10,7 @@ So thrilled to have made the cut:
 https://indieweb.social/@djangonaut/113227777330579423
 
 Session 3 Team info:
+
 https://djangonaut.space/comms/session-3-team/
 
 ### First meet - evidence!
