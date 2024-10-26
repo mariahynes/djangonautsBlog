@@ -95,7 +95,7 @@ Got the following:
 Build finished. The HTML pages are in _build/html.`
 
 I opened a page in the live docs 5.1 and the same page in dev - both had NO `py`
-I opened the same page in the new docs I just build and it DID have the `py`
+I opened the same page in the new docs I just built and it DID have the `py`
 
 I am not on the PR branch yet, but I don't have the issue.
 
@@ -115,6 +115,20 @@ https://docs.djangoproject.com/en/dev/intro/contributing/
 
 </details>
 
+<details>
+<summary>26th Oct 2024</summary>
+<br>
+I got comments back from PR owner that they had re-made the docs from the main branch after seeing my comment and could see that the issue WAS in the main branch, so this morning I re-did all my steps to recheck. 
+
+I created the docs again from most recent main dev branch and...I could see the issue - not sure why I didn't see them two days ago. Perhaps I had been in the wrong branch after all. 
+
+After creating the docs again I then renamed the docs folder, pulled down the PR18606 branch again and while in that branch created the docs. I could then compare the file from each folder. Indeed DEV branch had the issue and the PR branch did not. I put another comment on the MR confirming the issue was fixed in the PR and provided a little demo video showing the differences. I hope this will be useful to the person who ultimatly merges the PR. It's different to work, in that the Reviewer clicks an 'Approve' button.
+
+I've read some more Django documention that will be useful. 
+- contributing/committing-code.html#handling-pull-requests
+- contributing/writing-code/working-with-git.html
+
+</details>
 
 
 <details>

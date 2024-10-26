@@ -9,6 +9,9 @@ So thrilled to have made the cut:
 
 https://indieweb.social/@djangonaut/113227777330579423
 
+Session 3 Team info:
+https://djangonaut.space/comms/session-3-team/
+
 ### First meet - evidence!
 https://djangonaut.space/comms/2024/10/13/djangonauts-take-flight-welcome-to-session-3/
 
