@@ -131,10 +131,3 @@ I've read some more Django documention that will be useful.
 </details>
 
 
-<details>
-<summary>DATE GOES HERE!</summary>
-<br>
-ADD SOME INFO...
-</details>
-
-
