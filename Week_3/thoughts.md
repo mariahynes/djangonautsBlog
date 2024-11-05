@@ -12,6 +12,7 @@ I learnt from my mistakes and this time remembered to end the commit message wit
 
 </details>
 
+<details>
 <summary>5th Nov 2024</summary>
 <br>
 My second PR got merged! https://github.com/django/django/pull/18763 Got some great suggestions on this, made the updates. Nice to have feedback so quickly. Now just to find a more complex ticket...
